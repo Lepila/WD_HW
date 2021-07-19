@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration2</title>
+</head>
+
+<body>
+    <h3>Registration</h3>
+    <form action="registration.py" method="GET">
+        <fieldset>
+            <legend>Personal Info:</legend>
+            <div>Name: <input type="text" name="userName" id="username" value="Mila" readonly></div>
+            <div>Name: <input type="text" name="userSurName" id="usersurname" value="Krasteva" readonly></div>
+            <div>Gender: <label>male: <input type="radio" name="gender" value="m"></label>
+                <label>female: <input type="radio" name="gender" value="f" checked></label>
+            </div>
+        </fieldset>
+        <div>
+            <br><label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" cols="20"
+                placeholder="Write Something">Your site is awesome.</textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
