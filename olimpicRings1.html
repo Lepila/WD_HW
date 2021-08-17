@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlimpicRings</title>
+    <style>
+/* .img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+} */
+.ring {
+  /* make square box */
+  width: 10rem;
+  height: 10rem;
+  
+  /* vertically align the text inside */
+  line-height: 10rem;
+  vertical-align: middle;
+  /* horizontally align the text inside */
+  text-align: center;
+  
+  /* make circle */
+  border: 1rem solid;
+  border-radius: 100%;
+  
+  /* set opacity */
+  opacity: .4;
+  
+  font-size: 2em;
+  font-weight: bold;
+
+  position: absolute;
+
+}
+#europe {
+  border-color: blue;
+}
+#africa {
+  border-color: yellow;
+  right: 10rem;
+}
+#america {
+  border-color: black;
+
+}
+#asia {
+  border-color: green;
+}
+#australia {
+  border-color: red;
+}
+#container {
+  width: 30rem;
+  height: 30rem;
+  margin: auto;
+}
+body { 
+  background: url(https://www.publicdomainpictures.net/pictures/50000/velka/ocean-through-window-frame.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+      <div id="europe" class="ring">Europe</div>
+      <div id="africa" class="ring">Africa</div>
+      <div id="america" class="ring">America</div>
+      <div id="asia" class="ring">Asia</div>
+      <div id="australia" class="ring">Australia</div>
+    </div>
+</body>
+</html>
